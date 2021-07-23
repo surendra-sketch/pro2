@@ -1,0 +1,139 @@
+body{
+	/*background-color: red;*/
+	background-image: url("./image/space.jpeg.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+	background-color:#f5099f;
+}
+.jiii {
+	padding-top: 40px;
+	color:white;
+	text-align: center;
+}
+.jiii a{
+	padding-top: 40px;
+}
+
+/*.data{
+	 
+	position: relative;
+	padding-left: 50%;
+	color: white;
+	padding-top: 10%;
+}
+
+ input[type="checkbox"]{
+	width:;
+}*/
+
+.topform{
+	/*color: #fff;
+	position:relative;
+	padding-left: 50%;
+	width: 400px;
+	height: 600px;
+	background-color: #ccc;
+	background-position: fixed;
+	backface-visibility: transparent;
+*/  position: absolute;
+    top:20%;
+    left:20%; 
+    width: 400px;
+    height: 900px; 
+    background-color: rgba(0,0,0,0.5);
+    padding: 80px 40px;
+    color: #fff;
+     
+	}
+
+
+	 img{
+ 	position:absolute;
+ 	width: 80px;
+ 	height:80px;
+ 	border-radius: 50%;
+ 	overflow:hidden;
+ 	top:calc(-80px/2);
+ 	left:calc(40%);
+ 	background-color: red;
+
+        
+ }
+
+.topform p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	/*color:#000;*/
+	font-size: 25px;
+ /*	text-align: center;*/
+ }
+
+ .topform input{
+ 	width: 100%;
+ 	margin-bottom: 20px;
+ 	background-color:skyblue;
+
+
+ 	/*text-transform: uppercase;
+ 	text-align: center;
+ 	padding-left: 0;*/
+ }
+
+ .topform input[type="Email"]
+, .topform input[type="password"]
+,.topform input[type="text"]
+,.topform input[type="submit"]
+,.topform input[type="number"]
+,.topform input[type="Date"] {
+	border:none;
+	border-bottom: 3px solid #000 ;
+	background: transparent;
+	 outline: none;
+	 height:px;
+	 color: #fff;
+	 font-size: 15px;
+
+}
+
+.topform input[type="submit"]{
+	height: 30px;
+	width: 80%;
+	background-color:red;
+	border-radius: 20px;
+}
+
+.topform input[type="checkbox"]{
+	width: 20%;
+
+} 
+.topform input[type="text"]
+{
+	color:yellow;
+}
+
+
+.bottomsec{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap:0px;
+	
+}
+
+.bottomsec a{
+	color:yellow;
+	font-family: sans-serif;
+	word-spacing:3px;
+	padding-bottom: 100px;
+}
+
+h2{
+	text-align: center;
+	font-size: 50px;
+	margin-top: 0;
+}
+

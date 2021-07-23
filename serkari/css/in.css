@@ -1,0 +1,562 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.center-tables table td {
+  width: auto;
+}
+.center-tables table td .table-center {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.center-tables #heading > div a {
+  color: #fff;
+  text-decoration: none;
+}
+.center-tables #heading #view a {
+  color: inherit;
+}
+#header,
+#wrap,
+#marquee1 {
+  max-width: 1010px;
+  width: auto;
+}
+#image1,
+#image2,
+#image3,
+#image4,
+#image5,
+#image6,
+#image7,
+#image8 {
+  margin: 2px;
+  width: 98.5%;
+}
+h1.heading {
+  background: #ab183d;
+  color: #fff;
+  padding: 6px;
+  font-size: 1.5em;
+}
+table.box-data {
+  max-width: 1000px;
+  width: 100%;
+}
+.footer-col a {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+footer {
+  float: none;
+  width: 74%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.footer-content-wrapper {
+  width: 100%;
+  margin: 1em auto;
+  padding: 2% 0;
+}
+
+.footer-col {
+  display: inline-block;
+  padding: 0.5em 0.1em 0.5em 1em;
+  box-sizing: border-box;
+}
+.footer-col:nth-child(4) {
+  border: none;
+}
+
+.ta-l {
+  text-align: left;
+}
+.flt {
+  float: left;
+}
+
+.flt:nth-child(4):after {
+  content: " ";
+  visibility: hidden;
+  display: block;
+  height: 1em;
+  clear: both;
+}
+
+.large-25 {
+  width: 25%;
+}
+.large-50 {
+  width: 50%;
+}
+.col-3-display {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-3-display a {
+  display: inline-block;
+  width: 33%;
+}
+.footer-col a {
+  display: block;
+  text-decoration: none;
+  margin: 0.3em 0;
+  font-size: 13px;
+  margin: 0 0 10px;
+}
+.footer-content-wrapper h3 {
+  font-size: 1.3rem;
+}
+@media (max-width: 550px) {
+  .small-50 {
+    width: 50%;
+  }
+  .footer-col:nth-child(2) {
+    border: none;
+  }
+  #header {
+    width: 100%;
+  }
+}
+
+@media (max-width: 300px) {
+  .tiny-100 {
+    width: 100%;
+  }
+  .footer-col {
+    border: none;
+  }
+}
+
+.breadcrumb {
+  margin-top: 0;
+  float: left;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: left;
+}
+.logo {
+  padding: 10px 0;
+  float: left;
+  margin-left: 20px;
+}
+#header {
+  border: none;
+  position: relative;
+  height: auto;
+  min-height: 175px;
+}
+/*.navbar{position:relative; border:none; height:auto; padding:.5rem 1rem;}
+.navbar-dark .navbar-nav .nav-link{color: #fff !important;}
+.navbar .dropdown-menu{background-color:#000; min-width:8rem; padding-top:0; padding-bottom:0; margin: 0; border-top: none;}
+.navbar .dropdown-menu a{border-top: 1px solid #74a3b7; border-bottom: 1px solid #1f5065; padding:18px 0; text-align:center;}
+.navbar .dropdown-menu a:hover{background-color: #366b82; color:#fff;}*/
+.adv {
+  margin-top: 15px;
+}
+.navbar {
+  border-right: none;
+}
+.navbar a {
+  padding: 17px 0;
+}
+@media (max-width: 1200px) {
+}
+@media (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+}
+@media (max-width: 480px) {
+  .logo {
+    padding: 10px 0;
+    float: none;
+    margin-left: 0;
+  }
+  #head-title {
+    padding-top: 0;
+  }
+}
+
+.content_area {
+  float: none;
+  width: 74%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #d2691e;
+}
+.content_area h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.content_area p {
+  padding: 15px;
+  margin: 0;
+}
+h2.heading {
+  background: #ab183d;
+  color: #fff;
+  padding: 6px;
+}
+
+https://www.sarkariresult.com/edit/style2.css
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+}
+
+#header {
+  height: 150px;
+  width: 75%;
+  background-color: #ab183d;
+  margin-top: 5px;
+  border: 1px solid #000000;
+}
+
+#head-title {
+  padding-top: 40px;
+  font-weight: bold;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+#heading {
+  background-color: #ab183d;
+  height: 35px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 75%;
+  margin-top: -1px;
+}
+
+#menu ul li {
+  display: inline;
+  float: left;
+  background-color: #000000;
+  height: 40px;
+}
+
+#menu ul li {
+  display: inline;
+  float: left;
+  display: block;
+}
+
+#menu ul li a {
+  display: block;
+  width: 100px;
+  color: #ffffff;
+  padding-top: 4px;
+}
+
+#box1 {
+  height: 800px;
+  width: 300px;
+  border: 1px;
+  border-style: groove;
+  border-color: #336600;
+  background-color: #ffffff;
+  border: 2px solid #d2691e;
+}
+
+#box2 {
+  height: 300px;
+  width: 300px;
+  border: 1px;
+  border-style: groove;
+  border-color: #336600;
+  background-color: #ffffff;
+  border: 2px solid #d2691e;
+}
+
+#box2 {
+  height: 290px;
+  width: 300px;
+  border: 1px;
+  border-style: groove;
+  border-color: #336600;
+  background-color: #ffffff;
+  border: 2px solid #d2691e;
+}
+
+table td {
+  width: 25%;
+}
+
+#post ul li a {
+  line-height: 1.8px;
+}
+
+#marquee1 {
+  width: 75%;
+}
+
+#image1 {
+  height: 60px;
+  width: 245px;
+  background-color: #868a08;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#image1 a {
+  height: 60px;
+  width: 245px;
+  background-color: #868a08;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#image2 {
+  height: 60px;
+  width: 245px;
+  background-color: #0404b4;
+  font-size: x-large;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#image2 a {
+  height: 60px;
+  width: 245px;
+  background-color: #0404b4;
+  font-size: x-large;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#image3 {
+  height: 60px;
+  width: 245px;
+  background-color: #fb5e03;
+  font-size: x-large;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#image3 a {
+  height: 60px;
+  width: 245px;
+  background-color: #fb5e03;
+  font-size: x-large;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#image4 {
+  height: 60px;
+  width: 245px;
+  background-color: #8c0101;
+  font-size: x-large;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#image4 a {
+  height: 60px;
+  width: 245px;
+  background-color: #8c0101;
+  font-size: x-large;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#image5 {
+  height: 60px;
+  width: 245px;
+  background-color: #fb0303;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#image5 a {
+  height: 60px;
+  width: 245px;
+  background-color: #fb0303;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#image6 {
+  height: 60px;
+  width: 245px;
+  background-color: #0b610b;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#image6 a {
+  height: 60px;
+  width: 245px;
+  background-color: #0b610b;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#image7 {
+  height: 60px;
+  width: 245px;
+  background-color: #ff00bf;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#image7 a {
+  height: 60px;
+  width: 245px;
+  background-color: #ff00bf;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#image8 {
+  height: 60px;
+  width: 245px;
+  background-color: #0080ff;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+#image8 a {
+  height: 60px;
+  width: 245px;
+  background-color: #0080ff;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#facebook {
+  align: center;
+  border: 1px groove;
+  width: 70%;
+  height: 37px;
+  width: 350px;
+  background-color: #0000a0;
+  font-size: x-large;
+  font-color: #ffffff;
+  font-weight: bold;
+}
+
+#view {
+  padding-top: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0000a0;
+}
+
+#view a {
+  padding-top: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 180px;
+  color: #0000a0;
+  text-decoration: none;
+}
+
+#matter {
+  color: #ff0000;
+  font-size: 17px;
+  text-align: center;
+}
+
+#wrap {
+  width: 75%;
+  height: 50px;
+  margin: 0; /* Ensures there is no space between sides of the screen and the menu */
+  z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+  position: relative;
+  background-color: #000000;
+}
+.navbar {
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  position: absolute; /* Ensures that the menu doesn’t affect other elements */
+  border-right: 1px solid #54879d;
+}
+
+.navbar li {
+  height: 30px;
+  width: 120px; /* Each menu item is 150px wide */
+  float: left; /* This lines up the menu items horizontally */
+  text-align: center; /* All text is placed in the center of the box */
+  list-style: none; /* Removes the default styling (bullets) for the list */
+  font: normal bold 14px/1.2em Arial, Verdana, Helvetica;
+  padding: 0;
+  margin: 0;
+  background-color: #000000;
+}
+
+.navbar a {
+  padding: 18px 0; /* Adds a padding on the top and bottom so the text appears centered vertically */
+  border-left: 1px solid #ffffff; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+  border-right: 1px solid #000000; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+  text-decoration: none; /* Removes the default hyperlink styling. */
+  color: white; /* Text color is white */
+  display: block;
+}
+.navbar li ul {
+  display: none; /* Hides the drop-down menu */
+  height: auto;
+  margin: 0; /* Aligns drop-down box underneath the menu item */
+  padding: 0; /* Aligns drop-down box underneath the menu item */
+  color: #ffffff;
+}
+
+.navbar li:hover ul {
+  display: block; /* Displays the drop-down box when the menu item is hovered over */
+}
+
+.navbar li ul li {
+  background-color: #000000;
+  height: 55px;
+  margin-top: -8px;
+}
+
+.navbar li ul li a {
+  border-left: 1px solid #1f5065;
+  border-right: 1px solid #1f5065;
+  border-top: 1px solid #74a3b7;
+  border-bottom: 1px solid #1f5065;
+}
+
+.navbar li ul li a:hover {
+  background-color: #366b82;
+}
+
+@media (max-width: 767px;) {
+  #header {
+    width: 100%;
+  }
+}
